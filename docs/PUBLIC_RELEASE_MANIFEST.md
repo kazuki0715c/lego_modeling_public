@@ -8,7 +8,6 @@ This archive was prepared from the project files supplied for publication review
 
 Included:
 
-- `lego-mechanical-cad-CODE-BUNDLE.txt` — concatenated project-authored source bundle
 - `iss_build_iss.py` — project-authored ISS generation script
 - `iss_real_parts.ldr` — project-authored generated/model placement file using LDraw part references
 
@@ -26,6 +25,7 @@ The following categories were intentionally not published in this pass:
 - private/legacy ZIP archives
 - large internal diagnostic datasets with unclear redistribution provenance
 - local `mnt/user-data/...` duplicate paths
+- the larger concatenated source bundle, pending a file-by-file provenance/license pass before normal source-tree publication
 
 ## Private-to-public workflow
 
@@ -42,4 +42,4 @@ Recommended promotion flow:
 
 ## Current limitation
 
-This first public pass publishes the reviewed source snapshot as a release archive plus repository documentation. The source can be progressively unpacked into normal browsable GitHub directories after a file-by-file provenance/license review.
+This first public pass publishes a reviewed minimal ISS example snapshot as a release archive plus repository documentation. The broader source can be progressively unpacked into normal browsable GitHub directories after a file-by-file provenance/license review.
